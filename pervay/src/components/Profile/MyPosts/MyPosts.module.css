@@ -1,0 +1,35 @@
+.postsBlock {
+    padding: 10px;
+}
+
+.posts { 
+    margin-top: 10px;
+}
+
+#textInput {
+    height: 60px;
+    max-width: 400px;
+    width: 400px;
+    color: #968D8D;
+    margin: 50px auto 0;
+    background: white;
+    border-radius: 10px;
+    font-size: 120%;
+}
+
+#addPost{
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    font-weight: 100;
+    transition: all 0.2s;
+    margin: 3px;
+    border-bottom: 0px solid #eee;
+    cursor:pointer;
+    width: 80px;
+    height: 30px;
+  }
+  
+  button:active{
+    transform: scaleX(0.9) translateY(4px);
+  }

@@ -1,0 +1,23 @@
+.nav {
+  grid-area: n;
+  background-color: #934D53;
+  border-radius: 6px;
+  padding-left: 8px;
+  padding-top: 12px;
+  height: 400px;
+  width: 100px;
+}
+
+.item {
+  color: white;
+}
+a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+ }
+ a:visited {
+  color: white; 
+ } 
+ a:hover {
+  color: #968D8D; /* Цвет ссылки при наведении на нее курсора мыши */  
+  text-decoration: none ; /* Добавляем подчеркивание */
+ }
